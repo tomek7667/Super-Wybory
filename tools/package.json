@@ -1,0 +1,22 @@
+{
+  "name": "super-wybory-tools",
+  "version": "0.0.1",
+  "private": true,
+  "engineStrict": true,
+  "engines": {
+    "node": "19.8.1"
+  },
+  "scripts": {
+    "start": "node uploadMapData.js"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.45.0",
+    "@typescript-eslint/parser": "5.45.0",
+    "dotenv": "16.3.1",
+    "eslint": "8.28.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-svelte": "2.30.0",
+    "pocketbase": "0.18.3"
+  },
+  "type": "module"
+}
